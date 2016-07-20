@@ -31,6 +31,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
+    <Compile Include="bytearray.js" />
+    <Compile Include="socket.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
   </ItemGroup>
