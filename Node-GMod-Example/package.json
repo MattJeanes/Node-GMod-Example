@@ -1,0 +1,10 @@
+{
+  "name": "node-gmod-example",
+  "version": "0.0.0",
+  "description": "Node-GMod-Example",
+  "main": "app.js",
+  "author": {
+    "name": "Matt",
+    "email": ""
+  }
+}
