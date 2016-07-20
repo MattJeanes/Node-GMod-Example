@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Node-GMod-Example", "Node-GMod-Example.njsproj", "{322CF65C-0639-43FF-BE6C-8C414095879E}"
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Node-GMod-Example", "Node\Node-GMod-Example.njsproj", "{322CF65C-0639-43FF-BE6C-8C414095879E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
