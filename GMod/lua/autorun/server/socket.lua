@@ -18,7 +18,7 @@ Socket.Node = {
 Socket.Handlers=Socket.Handlers or {}
 
 function Socket:Init(port)
-	local sock=BromSock()
+	local sock=BromSock(BROMSOCK_TCP)
 	if sock:Listen(port) then
 		print("Listening on port "..port)
 		sock:SetCallbackAccept(function(...) self:Listen(...) end)
@@ -73,7 +73,7 @@ function Socket:Send(handle,func,address,port)
 	if func then
 		func(packet)
 	end
-	local sock=BromSock()
+	local sock=BromSock(BROMSOCK_TCP)
 	sock:SetCallbackConnect(function(sock,ret,ip,port)
 		sock:Send(packet:Copy())
 		sock:Close()
